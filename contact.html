@@ -6,7 +6,7 @@
     <title>Contact | ELIE Dog Services</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="page-bg">
     <nav class="navbar">
         <div class="container">
             <div class="logo">🐕‍🦺 ELIE COMPREHENSIVE DOG SERVICES</div>
@@ -17,6 +17,16 @@
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
+            <div class="nav-select-wrap">
+                <select class="mobile-nav-select" aria-label="Main navigation" onchange="if (this.value) window.location.href = this.value;">
+                    <option value="">Menu</option>
+                    <option value="index.html">Home</option>
+                    <option value="about.html">About</option>
+                    <option value="services.html">Services</option>
+                    <option value="gallery.html">Gallery</option>
+                    <option value="contact.html" selected>Contact</option>
+                </select>
+            </div>
         </div>
     </nav>
 
@@ -44,6 +54,28 @@
                     <p>📞 <strong>Phone:</strong> 0790853178 / 0700649193</p>
                     <p>📲 <strong>WhatsApp:</strong> Available</p>
                     <p>📍 <strong>Location:</strong> Kira – Bulindo, Uganda</p>
+
+                    <div class="pricing-card" aria-label="Pricing information">
+                        <div class="pricing-header">
+                            <span class="pricing-badge">Rates</span>
+                            <h3>Service Fees</h3>
+                        </div>
+
+                        <div class="pricing-list">
+                            <div class="pricing-item">
+                                <span>Booking fee</span>
+                                <strong>50,000shs</strong>
+                            </div>
+                            <div class="pricing-item">
+                                <span>Consultation fee</span>
+                                <strong>50,000shs</strong>
+                            </div>
+                            <div class="pricing-item">
+                                <span>Assessment fee</span>
+                                <strong>50,000shs</strong>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                

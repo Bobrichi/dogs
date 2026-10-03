@@ -6,7 +6,7 @@
     <title>Gallery | ELIE Dog Services</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="page-bg">
     <nav class="navbar">
         <div class="container">
             <div class="logo">🐕‍🦺 ELIE COMPREHENSIVE DOG SERVICES</div>
@@ -17,6 +17,16 @@
                 <li><a href="gallery.html" class="active">Gallery</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+            <div class="nav-select-wrap">
+                <select class="mobile-nav-select" aria-label="Main navigation" onchange="if (this.value) window.location.href = this.value;">
+                    <option value="">Menu</option>
+                    <option value="index.html">Home</option>
+                    <option value="about.html">About</option>
+                    <option value="services.html">Services</option>
+                    <option value="gallery.html" selected>Gallery</option>
+                    <option value="contact.html">Contact</option>
+                </select>
+            </div>
         </div>
     </nav>
 
